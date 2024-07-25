@@ -51,13 +51,6 @@ html {
   width: calc(100% - 250px);
 }
 
-#headImage {
-  width: 50px;
-  height: 34px;
-  margin-right: 20px;
-  padding-left: 20px;
-}
-
 #title {
   text-align: left;
   color: var(--header-footer-text);
@@ -259,20 +252,6 @@ td {
   border-radius: 4px;
   box-shadow: 0 4px 8px var(--card-shadow);
   transition: max-height 0.2s ease-out;
-}
-
-/* Footer */
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--header-footer-bg);
-  color: var(--header-footer-text);
-  text-align: center;
-  padding: 10px;
-  box-shadow: 0 -4px 8px var(--card-shadow);
-  z-index: 2;
 }
 
 p {
