@@ -115,8 +115,13 @@ html {
   font-size: 30px;
 }
 
+.closebtn {
+  text-decoration: none;
+}
+
 .closebtn:hover {
   color: #f1f1f1;
+  text-decoration: none;
 }
 
 main {
