@@ -1,31 +1,31 @@
 {
   "name": "Pain Management App",
   "short_name": "PainApp",
-  "start_url": "/painApp/index.html",
+  "start_url": "/pain/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#264653",
   "icons": [
     {
-      "src": "/painApp/icon-192x192.png",
+      "src": "/pain/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/painApp/icon-512x512.png",
+      "src": "/pain/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "screenshots": [
     {
-      "src": "/painApp/screenshot-wide.png",
+      "src": "/pain/screenshot-wide.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "/painApp/screenshot-narrow.png",
+      "src": "/pain/screenshot-narrow.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow"
