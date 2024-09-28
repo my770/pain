@@ -60,10 +60,10 @@ html {
 }
 
 .menu-icon {
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
   color: var(--header-footer-text);
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 /* Sidenav */
