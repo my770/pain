@@ -60,7 +60,7 @@ html {
 }
 }
 
-.menu-icon {
+#menu {
   font-size: 50px;
   cursor: pointer;
   color: var(--header-footer-text);
