@@ -55,7 +55,7 @@ html {
   text-align: left;
   color: var(--header-footer-text);
   cursor: pointer;
-  text-decoration: underline;  
+  text-decoration: none;  
   display: inline-block;
 }
 }
