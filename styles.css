@@ -50,7 +50,6 @@ html {
 /* Title styling */
 #title {
   cursor: pointer;
-  text-decoration: underline;
   font-size: 24px;  /* Adjust title font size */
   color: var(--header-footer-text);
 }
