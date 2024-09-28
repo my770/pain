@@ -71,4 +71,7 @@ function openTab(evt, tabName) {
   // Show the selected tab content
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
+
+  // Close the sidenav after selecting a link (to make it mobile-friendly)
+  closeNav();  // This will automatically close the sidenav
 }
