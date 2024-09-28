@@ -56,15 +56,16 @@ html {
   color: var(--header-footer-text);
   cursor: pointer;
   text-decoration: underline;  
+  display: inline-block;
 }
 }
 
 .menu-icon {
-  font-size: 50px;
+  font-size: 30px;
   cursor: pointer;
   color: var(--header-footer-text);
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 20px;
+  display: inline-block;
 }
 
 /* Sidenav */
