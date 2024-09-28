@@ -54,7 +54,7 @@ html {
 #title {
   text-align: left;
   color: var(--header-footer-text);
-    cursor: pointer;
+  cursor: pointer;
   text-decoration: underline;  
 }
 }
