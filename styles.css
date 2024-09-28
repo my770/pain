@@ -30,20 +30,36 @@ html {
 }
 
 /* Header */
+/* Header layout */
 .header {
-  transition: left 0.5s, width 0.5s;
-  position: fixed;
   display: flex;
-  align-items: center;
-  top: 0;
-  left: 0;
-  width: 100%;
+  justify-content: space-between;  /* Space between title and menu-icon */
+  align-items: center;  /* Vertically align both items */
+  padding: 0 20px;
   height: 70px;
   background-color: var(--header-footer-bg);
   box-shadow: 0 4px 8px var(--card-shadow);
   color: var(--header-footer-text);
-  padding: 0 20px;
-  z-index: 2; /* Ensure the header stays above the sidenav */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+/* Title styling */
+#title {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 24px;  /* Adjust title font size */
+  color: var(--header-footer-text);
+}
+
+/* Menu icon styling */
+.menu-icon {
+  font-size: 30px;  /* Adjust menu icon size */
+  cursor: pointer;  /* Show pointer cursor on hover */
+  color: var(--header-footer-text);
 }
 
 .header.shifted {
@@ -51,22 +67,6 @@ html {
   width: calc(100% - 250px);
 }
 
-#title {
-  text-align: left;
-  color: var(--header-footer-text);
-  cursor: pointer;
-  text-decoration: none;  
-  display: inline-block;
-}
-}
-
-#menu {
-  font-size: 50px;
-  cursor: pointer;
-  color: var(--header-footer-text);
-  padding-right: 400px;
-  display: inline-block;
-}
 
 /* Sidenav */
 .sidenav {
