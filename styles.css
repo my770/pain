@@ -54,6 +54,9 @@ html {
 #title {
   text-align: left;
   color: var(--header-footer-text);
+    cursor: pointer;
+  text-decoration: underline;  
+}
 }
 
 .menu-icon {
