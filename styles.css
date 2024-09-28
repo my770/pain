@@ -269,3 +269,13 @@ p {
     font-size: 18px;
   }
 }
+
+/* For small screens, make the sidenav full width */
+@media screen and (max-width: 600px) {
+  .sidenav {
+    width: 100%;
+  }
+  .sidenav button, .sidenav .tablinks {
+    font-size: 18px;
+  }
+}
