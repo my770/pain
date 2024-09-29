@@ -1,12 +1,12 @@
 const CACHE_NAME = "pain-management-cache-v1";
 const urlsToCache = [
-  "/painApp/",
-  "/painApp/index.html",
-  "/painApp/styles.css",
-  "/painApp/script.js",
-  "/painApp/favicon.ico",
-  "/painApp/icon-192x192.png",
-  "/painApp/icon-512x512.png"
+  "/pain/",
+  "/pain/index.html",
+  "/pain/styles.css",
+  "/pain/script.js",
+  "/pain/favicon.ico",
+  "/pain/icon-192x192.png",
+  "/pain/icon-512x512.png"
 ];
 
 self.addEventListener("install", function(event) {

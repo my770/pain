@@ -1,3 +1,19 @@
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("/painApp/sw.js").then(
+      function (registration) {
+        console.log(
+          "Service Worker registered with scope:",
+          registration.scope
+        );
+      },
+      function (error) {
+        console.log("Service Worker registration failed:", error);
+      }
+    );
+  });
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   var coll = document.getElementsByClassName("collapsible");
 
@@ -59,3 +75,20 @@ function openTab(evt, tabName) {
   // Close the sidenav after selecting a link (to make it mobile-friendly)
   closeNav();  // This will automatically close the sidenav
 }
+
+document.getElementById("title").addEventListener("click", function() {
+  // Hide all tab content
+  var tabcontent = document.getElementsByClassName("tabcontent");
+  for (var i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Show the landing page
+  document.getElementById("landingPage").style.display = "block";
+
+  // Remove active class from tab links (if necessary)
+  var tablinks = document.getElementsByClassName("tablinks");
+  for (var i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+});
