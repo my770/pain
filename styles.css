@@ -39,7 +39,7 @@ html {
   height: 70px;
   background-color: var(--header-footer-bg);
   box-shadow: 0 4px 8px var(--card-shadow);
-  color: var(--header-footer-text);
+  --header-footer-text: #333333;
   position: fixed;
   top: 0;
   left: 0;
