@@ -1,0 +1,5 @@
+
+User-agent: *
+Disallow: /private/  # Block access to private folders
+Allow: /pain/  # Assuming this is the public section of the site
+Sitemap: https://my770.github.io/pain/sitemap.xml
